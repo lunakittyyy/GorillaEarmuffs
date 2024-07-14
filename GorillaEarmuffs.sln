@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GorillaEarmuffs", "GorillaEarmuffs\GorillaEarmuffs.csproj", "{0D3FC51D-07D6-4CA4-8520-56A2E1AF1F23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D3FC51D-07D6-4CA4-8520-56A2E1AF1F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3FC51D-07D6-4CA4-8520-56A2E1AF1F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3FC51D-07D6-4CA4-8520-56A2E1AF1F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3FC51D-07D6-4CA4-8520-56A2E1AF1F23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34DFE92A-682E-4705-8CF2-B7BE4848AB39}
+	EndGlobalSection
+EndGlobal
