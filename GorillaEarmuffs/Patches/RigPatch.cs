@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using GorillaEarmuffs.Pages;
+using HarmonyLib;
 using UnityEngine;
 
 namespace GorillaEarmuffs.Patches
@@ -14,9 +15,16 @@ namespace GorillaEarmuffs.Patches
             {
                 voiceAudio.rolloffMode = AudioRolloffMode.Linear;
                 voiceAudio.spatialBlend = 1;
-                voiceAudio.maxDistance = Plugin.maxDistance.Value;
-                voiceAudio.minDistance = 0;
                 voiceAudio.pitch = 1;
+                if (EarmuffPage.isWearingEarmuffs)
+                {
+                    voiceAudio.maxDistance = Plugin.maxDistance.Value;
+                    voiceAudio.minDistance = 0;
+                } else
+                {
+                    voiceAudio.maxDistance = 500;
+                    voiceAudio.minDistance = 9.901f;
+                }
             }
         }
     }

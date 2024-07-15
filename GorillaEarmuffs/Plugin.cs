@@ -1,6 +1,8 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
-
+using Jerald;
+using System.Text;
+[assembly: AutoRegister]
 namespace GorillaEarmuffs
 {
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
